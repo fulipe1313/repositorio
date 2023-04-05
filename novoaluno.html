@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
+    
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<link rel="stylesheet" href="css/cadastroaluno.css">
+    <title>Ocorrencia</title>
+
 </head>
 <body>
-    
+    <section class="area-login">
+        <div class="login">
+        <form action="Acadastrar.php" method="POST">
+            <input class="input" type="text" name="nome" placeholder="Nome do Aluno">
+            <select class="input" name = "turma">
+                <option value="1">1° A</option>
+                <option value="2">1° B</option>
+                <option value="3">1° C</option>
+                <option value="4">2° A</option>
+                <option value="5">2° B</option>
+                <option value="6">2° C</option>
+                <option value="7">3° A</option>
+                <option value="8">3° B</option>
+                <option value="9">3° C</option>
+            </select>
+            <input class="button" type="submit" value="CADASTRAR">
+        </div>
+    </section>
 </body>
 </html>
