@@ -2910,12 +2910,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #4e73df;
+  color: #df7e4e;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #224abe;
+  color: #be4c22;
   text-decoration: underline;
 }
 
