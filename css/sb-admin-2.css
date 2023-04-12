@@ -551,7 +551,9 @@ pre code {
 .container-md,
 .container-lg,
 .container-xl {
+  
   width: 100%;
+  
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin-right: auto;
