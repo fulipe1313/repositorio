@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <head>
     
 
@@ -36,4 +36,4 @@
         </div>
     </section>
 </body>
-</html>
+</php>

@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt_BR">
+<!DOCTYPE php>
+<php lang="pt_BR">
 
 <head>
 
@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -41,13 +41,13 @@
             
              <!-- Nav Item - home -->
              <li class="nav-item active">
-                <a class="nav-link" href="admturma.html">
+                <a class="nav-link" href="admturma.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Turma</span></a>
             </li>
 
              <li class="nav-item ">
-                <a class="nav-link" href="admaluno.html">
+                <a class="nav-link" href="admaluno.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Aluno</span></a>
             </li>
@@ -55,13 +55,13 @@
            
 
             <li class="nav-item ">
-                <a class="nav-link" href="admuser.html">
+                <a class="nav-link" href="admuser.php">
                     <i class="fas fa-fw fa-users-cog"></i>
                     <span>Usuário</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="charts.php">
                     <i class="fas fa-fw fa-chart-pie"></i>
                     <span>Gráficos</span></a>
             </li>
@@ -89,7 +89,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-                    <a href="novaturma.html" class="btn btn-info btn-icon-split fa-pull-up" >
+                    <a href="novaturma.php" class="btn btn-info btn-icon-split fa-pull-up" >
                         <span class="icon text-white-50" >
                             <i class="fas fa-plus"></i>
                         </span>
@@ -116,7 +116,7 @@
                     
                         <div class="col-xl-3 col-md-6 mb-4 " >
                             <div class="card border-left-primary shadow h-100 py-2" >
-                               <a href="admaluno.html" style="text-decoration:none">
+                               <a href="admaluno.php" style="text-decoration:none">
                                     <div class="card-body">
                                       
                                         <div class="row no-gutters align-items-center">
@@ -144,7 +144,7 @@
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
                             <div class="card-body">
-                                <a href="admaluno.html" style="text-decoration:none">
+                                <a href="admaluno.php" style="text-decoration:none">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -166,7 +166,7 @@
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
                             <div class="card-body">
-                                <a href="admaluno.html" style="text-decoration:none">
+                                <a href="admaluno.php" style="text-decoration:none">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -188,7 +188,7 @@
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
                             <div class="card-body">
-                                <a href="admaluno.html" style="text-decoration:none">
+                                <a href="admaluno.php" style="text-decoration:none">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -210,7 +210,7 @@
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
                             <div class="card-body">
-                                <a href="admaluno.html" style="text-decoration:none">
+                                <a href="admaluno.php" style="text-decoration:none">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -232,7 +232,7 @@
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
                             <div class="card-body">
-                                <a href="admaluno.html" style="text-decoration:none">
+                                <a href="admaluno.php" style="text-decoration:none">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -254,7 +254,7 @@
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
                             <div class="card-body">
-                                <a href="admaluno.html" style="text-decoration:none">
+                                <a href="admaluno.php" style="text-decoration:none">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -276,7 +276,7 @@
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
                             <div class="card-body">
-                                <a href="admaluno.html" style="text-decoration:none">
+                                <a href="admaluno.php" style="text-decoration:none">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -298,7 +298,7 @@
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
                             <div class="card-body">
-                                <a href="admaluno.html" style="text-decoration:none">
+                                <a href="admaluno.php" style="text-decoration:none">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <head>
     
 
@@ -13,15 +13,22 @@
     <section class="area-login">
         <div class="login">
         <form action="#" method="POST">
-            <input class="input" type="text" name="nome" placeholder="Turma">
-          
+            <input class="input" type="text" name="nome" placeholder="Nome">
+            <input class="input" type="text" name="senha" placeholder="senha">
+
+            <select class="input" name = "turma">
+                <option value="1">Coordenador</option>
+                <option value="1">Professor</option>
+                <option value="1">Administrador</option>
+
+            </select>
             
                 <input class="button" type="submit" value="CADASTRAR">
-            
+
                 
             
             
         </div>
     </section>
 </body>
-</html>
+</php>

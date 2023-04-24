@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt_BR">
+<!DOCTYPE php>
+<php lang="pt_BR">
 
 <head>
 
@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -40,7 +40,7 @@
           
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="index.php">
                     <i class="fas fa-fw fa-server"></i>
                     <span>Inicio</span></a>
             </li>
@@ -51,7 +51,7 @@
 
             <!-- Nav Item - alunos 
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="tables.php">
                     <i class="fas fa-fw fa-clipboard"></i>
                     <span>Alunos</span></a>
             </li> -->
@@ -61,7 +61,7 @@
 
              <!-- 
              <li class="nav-item">
-                <a class="nav-link" href="visualizar.html">
+                <a class="nav-link" href="visualizar.php">
                     <i class="fas fa-fw fa-eye"></i>
                     <span>Visualizar</span></a>
             </li>
@@ -70,7 +70,7 @@
              <!-- 
 
              <li class="nav-item">
-                <a class="nav-link" href="aplicar.html">
+                <a class="nav-link" href="aplicar.php">
                     <i class="fas fa-fw fa-check-circle"></i>
                     <span>Aplicar</span></a>
             </li>
@@ -171,7 +171,7 @@
                         
                             <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card border-left-primary shadow h-100 py-2">
-                                   <a href="tables.html" style="text-decoration:none">
+                                   <a href="tables.php" style="text-decoration:none">
                                         <div class="card-body">
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col mr-2">
@@ -190,7 +190,7 @@
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <a href="tables.html" style="text-decoration:none">
+                                    <a href="tables.php" style="text-decoration:none">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -207,7 +207,7 @@
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <a href="tables.html" style="text-decoration:none">
+                                    <a href="tables.php" style="text-decoration:none">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -224,7 +224,7 @@
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <a href="tables.html" style="text-decoration:none">
+                                    <a href="tables.php" style="text-decoration:none">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -241,7 +241,7 @@
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <a href="tables.html" style="text-decoration:none">
+                                    <a href="tables.php" style="text-decoration:none">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -258,7 +258,7 @@
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <a href="tables.html" style="text-decoration:none">
+                                    <a href="tables.php" style="text-decoration:none">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -275,7 +275,7 @@
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <a href="tables.html" style="text-decoration:none">
+                                    <a href="tables.php" style="text-decoration:none">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -292,7 +292,7 @@
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <a href="tables.html" style="text-decoration:none">
+                                    <a href="tables.php" style="text-decoration:none">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -309,7 +309,7 @@
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <a href="tables.html" style="text-decoration:none">
+                                    <a href="tables.php" style="text-decoration:none">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
@@ -372,7 +372,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="login.php">Logout</a>
                 </div>
             </div>
         </div>
@@ -399,4 +399,4 @@
 
 </body>
 
-</html>
+</php>

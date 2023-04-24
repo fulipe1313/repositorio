@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
 
@@ -57,7 +57,7 @@
                                                 
                                             </div>
                                         </div>
-                                        <a href="admturma.html" class="btn btn-primary btn-user btn-block">
+                                        <a href="admturma.php" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </a>
                                         
@@ -89,4 +89,4 @@
 
 </body>
 
-</html>
+</php>

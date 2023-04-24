@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt_BR">
+<!DOCTYPE php>
+<php lang="pt_BR">
 
 <head>
 
@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -40,34 +40,31 @@
           
             
              <!-- Nav Item - home -->
-
              <li class="nav-item">
-                <a class="nav-link" href="admturma.html">
+                <a class="nav-link" href="admturma.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Turma</span></a>
             </li>
 
-             <li class="nav-item active">
-                <a class="nav-link" href="admaluno.html">
+             <li class="nav-item ">
+                <a class="nav-link" href="admaluno.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Aluno</span></a>
             </li>
 
            
 
-            <li class="nav-item ">
-                <a class="nav-link" href="admuser.html">
+            <li class="nav-item active">
+                <a class="nav-link" href="admuser.php">
                     <i class="fas fa-fw fa-users-cog"></i>
                     <span>Usuário</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="charts.php">
                     <i class="fas fa-fw fa-chart-pie"></i>
                     <span>Gráficos</span></a>
             </li>
-
-           
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -93,58 +90,12 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    
+                   
 
-                    <!-- Topbar Search -->
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                aria-label="Search" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                 
 
                     <!-- Topbar Navbar -->
-                    <ul class="navbar-nav ml-auto">
-
-                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-                        <li class="nav-item dropdown no-arrow d-sm-none">
-                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-search fa-fw"></i>
-                            </a>
-                            <!-- Dropdown - Messages -->
-                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
-                                aria-labelledby="searchDropdown">
-                                <form class="form-inline mr-auto w-100 navbar-search">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control bg-light border-0 small"
-                                            placeholder="Search for..." aria-label="Search"
-                                            aria-describedby="basic-addon2">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="button">
-                                                <i class="fas fa-search fa-sm"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </li>
-
-                        <!-- Nav Item - Alerts -->
-                    
-
-                       
-
-                        
-
-                       
-                    </ul>
+                  
                     
 
                 </nav>
@@ -164,11 +115,11 @@
 
                             <!-- Page Heading -->
                             
-                            <a href="novoaluno.html" class="btn btn-info btn-icon-split fa-pull-up" >
+                            <a href="novouser.php" class="btn btn-info btn-icon-split fa-pull-up" >
                                 <span class="icon text-white-50" >
                                     <i class="fas fa-plus"></i>
                                 </span>
-                                <span class="text">Adicionar Aluno</span>
+                                <span class="text">Adicionar Usuário</span>
                             </a>
                             <!-- DataTales Example -->
                             <div class="card shadow mb-4" style="margin-top:30px;">
@@ -183,13 +134,15 @@
                                                 <tr>
                                                    
                                                     <th>Nome</th>
-                                                    <th>Matricula</th>
+                                                    <th>Senha</th>
+                                                    <th>Cargo</th>
                                                     
                                                     <th>Excluir</th>
         
                                                 </tr>
                                                 <td>edilson</td>
                                                 <td>2345323</td>
+                                                <td>Coordenador</td>
                                                 
                                                 <td style="text-align: center;">
                                                     <a href="#" class="btn btn-danger btn-icon-split ">
@@ -282,7 +235,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="login.php">Logout</a>
                 </div>
             </div>
         </div>
@@ -307,4 +260,4 @@
 
 </body>
 
-</html>
+</php>
