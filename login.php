@@ -41,14 +41,14 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Bem Vindo</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" action="php/logar.php">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
+                                            <input type="text" name="nome" class="form-control form-control-user"
+                                               
                                                 placeholder="Nome">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user"
+                                            <input type="password" name="senha" class="form-control form-control-user"
                                                 id="exampleInputPassword" placeholder="Senha">
                                         </div>
                                         <div class="form-group">
@@ -57,9 +57,9 @@
                                                 
                                             </div>
                                         </div>
-                                        <a href="index.php" class="btn btn-primary btn-user btn-block">
+                                        <button type="submit" class="btn btn-primary btn-user btn-block">
                                             Login
-                                        </a>
+                                        </button>
                                         
                                         
                                     </form>

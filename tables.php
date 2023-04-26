@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE php>
 <php lang="pt_BR">
 
@@ -207,6 +211,19 @@
                                     
                              
                                     <tbody>
+                                        
+                                        <?php while($linha = mysqli_fetch_assoc($resultados)){
+                                        echo "<tr>";
+                                        echo "<td>".$linha['nome']."</td>";
+                                        echo   "<td style='text-align: center;'>
+                                                <a href='DeleteAluno.php?id=$linha[id]' class='btn btn-danger btn-icon-split'>
+                                                    <span class='icon text-white-50'>
+                                                        <i class='fas fa-trash'></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>";
+                                        } ?>
                                     </tbody>
 
                                 </table>
