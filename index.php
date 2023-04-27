@@ -1,5 +1,13 @@
+
+<?php
+include ("php/verificar.php");
+include("php/conexao.php");
+?>
+
 <!DOCTYPE php>
 <php lang="pt_BR">
+
+
 
 <head>
 
@@ -31,7 +39,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="turma.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -40,7 +48,7 @@
           
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">
+                <a class="nav-link" href="turma.php">
                     <i class="fas fa-fw fa-server"></i>
                     <span>Inicio</span></a>
             </li>
@@ -168,7 +176,14 @@
 
                         <!-- Turmas -->
 
+                        <?php
                         
+                        $query = "select alunos.id AS id, alunos.nome as nome, alunos.tel as tel, alunos.nome_resp as resp, alunos.tel_resp as resp_tel, alunos.matricula as matricula, alunos.id_turma as id_turma, turma.id as turma, turma.nome as turma, turma.ano as ano, turma.curso as curso FROM alunos JOIN turma ON alunos.id_turma = turma.id; ";
+                        $resultado = mysqli_query($conexao, $query);
+                        
+                        
+                        while($turma = mysqli_fetch_assoc($resultado)){
+                        ?>
                             <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card border-left-primary shadow h-100 py-2">
                                    <a href="tables.php" style="text-decoration:none">
@@ -176,8 +191,8 @@
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col mr-2">
                                                     <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                         Informática</div>
-                                                    <div class="h5 mb-0 font-weight-bold text-gray-800">3 A</div>
+                                                         <?=$turma['curso']?></div>
+                                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?=$turma['turma']?></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -185,146 +200,13 @@
                                 </div>
                             </div>
                         
-                       
+                       <?php } ?>
                         
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <a href="tables.php" style="text-decoration:none">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Enfermagem</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">3 B</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                   
-                                </div>
-                            </div>
-                        </div>
+                        
 
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <a href="tables.php" style="text-decoration:none">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Administração</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">3 C</div>
-                                            </div>
-                                        </div>
-                                    </a>
 
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <a href="tables.php" style="text-decoration:none">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Informática</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">2 A</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <a href="tables.php" style="text-decoration:none">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Enfermagem</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">2 B</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <a href="tables.php" style="text-decoration:none">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Administração</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">2 C</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <a href="tables.php" style="text-decoration:none">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Informática</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">1 A</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <a href="tables.php" style="text-decoration:none">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Enfermagem</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">1 B</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <a href="tables.php" style="text-decoration:none">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Administração</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">1 C</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                
-                       
-                    </div>
 
                    
                     

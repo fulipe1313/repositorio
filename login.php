@@ -1,5 +1,14 @@
+<?php
+
+include ("php/logout.php");
+
+?>
 <!DOCTYPE php>
-<php lang="en">
+<php lang="pt_BR">
+
+
+
+
 
 <head>
 
@@ -41,7 +50,9 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Bem Vindo</h1>
                                     </div>
-                                    <form class="user" action="php/logar.php">
+
+
+                                    <form class="user" action="php/logar.php" method="POST">
                                         <div class="form-group">
                                             <input type="text" name="nome" class="form-control form-control-user"
                                                

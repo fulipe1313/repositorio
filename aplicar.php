@@ -1,3 +1,11 @@
+
+<?php
+include ("php/verificar.php");
+?>
+
+
+
+
 <!DOCTYPE php>
 <php lang="pt_BR">
 
@@ -31,7 +39,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="turma.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -39,7 +47,7 @@
             </a>
         <!-- Nav Item - Dashboard 
         <li class="nav-item ">
-            <a class="nav-link" href="index.php">
+            <a class="nav-link" href="turma.php">
                 <i class="fas fa-fw fa-server"></i>
                 <span>Inicio</span></a>
         </li>-->
@@ -260,7 +268,7 @@
                                                 </span>
                                                 <span class="text">Enviar</span>
                                             </a>
-                                            <a href="index.php" class="btn btn-light btn-icon-split fa-pull-left" >
+                                            <a href="turma.php" class="btn btn-light btn-icon-split fa-pull-left" >
                                                 <span class="icon text-white-50">
                                                     <i class="fas fa-arrow-left"></i>
                                                 </span>
@@ -312,7 +320,7 @@
     </a>
 
     <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="logoutModal" tabturma="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

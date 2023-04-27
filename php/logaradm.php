@@ -6,22 +6,22 @@
  $senha = $_POST['senha']; 
  
 
- $query = "SELECT * FROM usuarios where usuario = '$nome' and senha = '$senha'";
+ $query = "SELECT * FROM adm where usuario = '$nome' and senha = '$senha'";
  $resultado = mysqli_query($conexao, $query);
  $user = mysqli_fetch_assoc($resultado); 
 
  if(mysqli_num_rows ($resultado) > 0){
      
-     $_SESSION['nome'] = $user['nome'];
-     $_SESSION['id'] = $user['id'];
+     $_SESSION['nomeadm'] = $user['nome'];
+     $_SESSION['idadm'] = $user['id'];
     
-      header("location: ../index.php");
+      header("location: ../admturma.php");
      
  }else{
     
     
     
-     header("location: ../login.php");
+     header("location: ../admlogin.php");
      
  }
 
